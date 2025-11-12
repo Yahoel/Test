@@ -1,11 +1,11 @@
-import type { JSX } from "react";
+import type { ReactNode } from "react";
 
 export const View = ({
   className,
   children,
 }: {
   className?: string;
-  children?: JSX.Element;
+  children?: ReactNode;
 }) => {
   return <div className={className}>{children}</div>;
 };
