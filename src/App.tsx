@@ -1,5 +1,7 @@
 import z from "zod";
 import "./App.css";
+import { Text, View } from "./components";
+
 /**
   
   ## 基础技术要求
@@ -11,9 +13,10 @@ import "./App.css";
   ## 文本渲染要求
   ### 文本渲染要求：页面上显示的所有文本内容，都要用 Text 标签包裹起来。
   ### 描述：这样做的目的是让文本的渲染方式更符合 React Native 的代码编写习惯。
-
+  
+  > 对现有组件，您可以随意修改，但是要确保修改后的组件符合上述规则
+   
  */
-import { Text, View } from "./components";
 
 export const SwitchStatus = {
   OPEN: "open",
@@ -23,9 +26,7 @@ export const SwitchStatus = {
 export default function App() {
   return (
     <View className="phone-container">
-      <View className="phone-content">
-
-      </View>
+      <View className="phone-content"></View>
     </View>
   );
 }
