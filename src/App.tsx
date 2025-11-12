@@ -15,7 +15,9 @@ import { Text, View } from "./components";
   ### 描述：这样做的目的是让文本的渲染方式更符合 React Native 的代码编写习惯。
   
   > 对现有组件，您可以随意修改，但是要确保修改后的组件符合上述规则
-   
+
+  > 完成后请于 src/example-video.mp4 示例视频 核对最终效果
+
  */
 
 export const SwitchStatus = {
